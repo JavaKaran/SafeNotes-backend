@@ -4,9 +4,9 @@ import connectDB from "./config/db.js";
 import colors from "colors";
 import path from "path";
 
-import noteRoutes from "./routes/noteRoutes.js";
-import userRoutes from "./routes/userRoutes.js";
-import externalRoutes from "./routes/externalRoutes.js";
+import noteRoutes from "./api/noteRoutes.js";
+import userRoutes from "./api/userRoutes.js";
+import externalRoutes from "./api/externalRoutes.js";
 import { errorHandler, notFound } from "./middleware/errorMiddleware.js";
 
 dotenv.config();
