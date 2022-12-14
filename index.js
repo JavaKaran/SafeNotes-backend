@@ -34,3 +34,5 @@ app.listen(
       .bold
   )
 );
+
+export default app;
